@@ -1,9 +1,0 @@
-wget http://repo1.maven.org/maven2/com/databricks/spark-redshift_2.10/2.0.0/spark-redshift_2.10-2.0.0.jar ~
-wget http://central.maven.org/maven2/com/databricks/spark-avro_2.10/1.0.0/spark-avro_2.10-1.0.0.jar ~
-wget https://github.com/ralfstx/minimal-json/releases/download/0.9.4/minimal-json-0.9.4.jar ~
-
-
-spark-shell --jars spark-redshift_2.10-2.0.0.jar,/usr/share/aws/redshift/jdbc/RedshiftJDBC41.jar,minimal-json-0.9.4.jar,spark-avro_2.10-1.0.0.jar
-
-
-wget http://central.maven.org/maven2/com/databricks/spark-avro_2.11/3.0.0/spark-avro_2.11-3.0.0.jar ~
